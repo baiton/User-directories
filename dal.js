@@ -10,7 +10,7 @@ function getRobot(robotId){
 let chosenRobot={}
 for (i=0;i < robot.length ; i++){
   if (robot[i].id === robotId){
-    chosenRobot = robot[i]
+    chosenRobot = robot[i];
   }
 }
 return chosenRobot;

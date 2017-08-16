@@ -1,0 +1,41 @@
+body{
+  background-color: white;
+  margin: 10px;
+  background-color: #A8A8A9;
+}
+
+div>div{
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  background-color: white;
+  width: 20%;
+  margin-bottom: 10vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+p{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  color: #26A9E0;
+}
+
+span{
+  text-align: center;
+  color:#EC1A23;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+img{
+  width: fit-content;
+  margin: auto;
+}
