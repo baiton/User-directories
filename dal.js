@@ -6,6 +6,7 @@ function getRobots(){
   return robot;
 }
 
+
 function getRobot(robotId){
 let chosenRobot={}
 for (i=0;i < robot.length ; i++){
