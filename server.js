@@ -22,7 +22,7 @@ app.get('/robots', function(req, res){
 
 // if I use localhost:3000/robot/id
 app.get('/robots/:id', function (request, response) {
-  const chosenRobot = robotDal.getRobot(request.params.id);
+  const chosenRobot = robotDal.getRobot(parseInt(request.params.id));
   if (chosenRobot.id) {
     response.render('robotDetails', chosenRobot);
   } else {
